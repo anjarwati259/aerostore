@@ -1,0 +1,296 @@
+Uri: https://rozezshop.com/
+File Name: C:\Downloaded Web Sites\rozezshop.com\index.htm
+Content Type: text/html
+
+Uri: https://rozezshop.com/assets/images/favicon.png?x
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/css/all.css
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\css\all.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/vendor/bootstrap/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\bootstrap\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/vendor/alertifyjs/css/alertify.min.css
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\alertifyjs\css\alertify.min.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/vendor/alertifyjs/css/themes/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\alertifyjs\css\themes\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/vendor/DataTables/DataTables-1.10.22/css/dataTables.bootstrap4.min.css?x
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\DataTables\DataTables-1.10.22\css\dataTables.bootstrap4.min.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098465
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/status
+File Name: C:\Downloaded Web Sites\rozezshop.com\status.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=1
+File Name: C:\Downloaded Web Sites\rozezshop.com\order.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=2
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-1.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=19
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-2.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=3
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-3.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=6
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-4.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=10
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-5.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=26
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-6.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=25
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-7.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=13
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-8.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=14
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-9.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=11
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-10.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=16
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-11.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/order?id=17
+File Name: C:\Downloaded Web Sites\rozezshop.com\order-12.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/terms
+File Name: C:\Downloaded Web Sites\rozezshop.com\terms.html
+Content Type: text/html
+
+Uri: https://rozezshop.com/assets/js/jquery-3.5.1.min.js
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\js\jquery-3.5.1.min.js
+Content Type: application/javascript
+
+Uri: https://rozezshop.com/assets/vendor/bootstrap/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\bootstrap\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://rozezshop.com/assets/vendor/alertifyjs/alertify.min.js
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\alertifyjs\alertify.min.js
+Content Type: application/javascript
+
+Uri: https://rozezshop.com/assets/vendor/DataTables/DataTables-1.10.22/js/jquery.dataTables.min.js?x
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\DataTables\DataTables-1.10.22\js\jquery.dataTables.min.js
+Content Type: application/javascript
+
+Uri: https://rozezshop.com/assets/vendor/DataTables/DataTables-1.10.22/js/dataTables.bootstrap4.min.js?x
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\DataTables\DataTables-1.10.22\js\dataTables.bootstrap4.min.js
+Content Type: application/javascript
+
+Uri: https://rozezshop.com/assets/images/logo.png?x
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\logo.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/preloader.gif
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\preloader.gif
+Content Type: image/gif
+
+Uri: https://rozezshop.com/assets/images/1632729967.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1632729967.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1631511459471.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1631511459471.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1636589846798.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1636589846798.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1622141490227.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1622141490227.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1616052881546.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1616052881546.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1616052955668.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1616052955668.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1631511438326.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1631511438326.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1631512014154.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1631512014154.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1631511825432.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1631511825432.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1611224901633.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1611224901633.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1611224923498.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1611224923498.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1606315118424.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1606315118424.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1611225071724.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1611225071724.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/images/1611225113272.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1611225113272.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/js/promobox.js
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\js\promobox.js
+Content Type: application/javascript
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://rozezshop.com/assets/vendor/fontawesome/webfonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\vendor\fontawesome\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://rozezshop.com/assets/font/Poppins-Regular.ttf
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\font\Poppins-Regular.ttf
+Content Type: font/ttf
+
+Uri: https://rozezshop.com/assets/images/paid.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\paid.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098470
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-1.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098471
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-2.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/images/1603588464.png
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\images\1603588464.png
+Content Type: image/png
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098472
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-3.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098473
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-4.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098474
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-5.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098475
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-6.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098476
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-7.css
+Content Type: text/css
+
+Uri: https://rozezshop.com/assets/css/style.css?v=1641098477
+File Name: C:\Downloaded Web Sites\rozezshop.com\assets\css\style-8.css
+Content Type: text/css
+
