@@ -27,7 +27,7 @@
 <header>
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-custom shadow-sm p-3 mb-5 bg-white">
 <div class="container">
-	<a class="navbar-brand" href="index.php"><img src="<?php echo base_url() ?>/template/home/aero1.png" width="50px"></a>
+	<a class="navbar-brand" href="<?php echo base_url('home') ?>"><img src="<?php echo base_url() ?>/template/home/aero1.png" width="50px"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	<i class="fas fa-bars color-primary" style="font-size: 26px;"></i>
 	</button>
@@ -36,7 +36,7 @@
 		<ul class="navbar-nav">
 			<li class="nav-item">
 				<li class="nav-item">
-					<a class="nav-link active" href="index.php"><i class="fas fa-home"></i> Home</a>
+					<a class="nav-link active" href="<?php echo base_url('home') ?>"><i class="fas fa-home"></i> Home</a>
 				</li>
 				
 			</ul>
