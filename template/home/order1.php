@@ -170,26 +170,26 @@ $(document).ready(function() {
         </div>
     </div>
     <div class="col-12 mb-3">
-	<div class="card">
-		<div class="card-body">
-			<div class="text-white text-center position-absolute circle-primary">3</div>
-			<h5 style="margin-left: 40px;">Pilih Metode Pembayaran</h5>
-			<hr>
-			<h6 style="margin-left: 20px;">Transfer Bank</h6>
-			<div class="form-row mt-4">
-				<div class="panel-topup">
-				<input type="radio" id="tf-bni" name="tf" value="2"><label id="bni" for="tf-bni"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\bni.png"></label>
-				<input type="radio" id="tf-bri" name="tf" value="1"><label id="bri" for="tf-bri"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\bri.png"></label>
-				<input type="radio" id="tf-mandiri" name="tf" value="3"><label id="mandiri" for="tf-mandiri"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\mandiri.png"></label>
-			</div>
-			<div class="mt-4">
-				<h6 style="margin-left: 20px;">E - Wallet</h6>
-				<input type="radio" id="tf-dana" name="tf" value="6"><label for="tf-dana"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\dana.png"></label>
-				<input type="radio" id="tf-gopay" name="tf" value="5"><label for="tf-gopay"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\gopay.png"></label>
-				<input type="radio" id="tf-ovo" name="tf" value="4"><label id="ovo" for="tf-ovo"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\ovo.png"></label>
-				<!-- <input type="radio" id="tf-shopee" name="tw-wallet" value="423"><label onclick="ganti('shopee')" id="shopee" for="tf-ovo"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\shopee.png"></label> -->
-			</div>
-	</div>
+		<div class="card">
+			<div class="card-body">
+				<div class="text-white text-center position-absolute circle-primary">3</div>
+				<h5 style="margin-left: 40px;">Pilih Metode Pembayaran</h5>
+				<hr>
+				<h6 style="margin-left: 20px;">Transfer Bank</h6>
+				<div class="form-row mt-4">
+					<div class="panel-topup">
+					<input type="radio" id="tf-bni" name="tf" value="2"><label id="bni" for="tf-bni"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\bni.png"></label>
+					<input type="radio" id="tf-bri" name="tf" value="1"><label id="bri" for="tf-bri"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\bri.png"></label>
+					<input type="radio" id="tf-mandiri" name="tf" value="3"><label id="mandiri" for="tf-mandiri"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\mandiri.png"></label>
+				</div>
+				<div class="mt-4">
+					<h6 style="margin-left: 20px;">E - Wallet</h6>
+					<input type="radio" id="tf-dana" name="tf" value="6"><label for="tf-dana"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\dana.png"></label>
+					<input type="radio" id="tf-gopay" name="tf" value="5"><label for="tf-gopay"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\gopay.png"></label>
+					<input type="radio" id="tf-ovo" name="tf" value="4"><label id="ovo" for="tf-ovo"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\ovo.png"></label>
+					<!-- <input type="radio" id="tf-shopee" name="tw-wallet" value="423"><label onclick="ganti('shopee')" id="shopee" for="tf-ovo"><img style="margin-right: 3px !important;" height="50px" src="assets\images\bayar\shopee.png"></label> -->
+				</div>
+		</div>
 	</div>
 
 	<div class="col-12 mb-3">

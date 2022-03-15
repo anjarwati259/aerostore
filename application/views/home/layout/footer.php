@@ -78,6 +78,7 @@
 	<a href="https://www.instagram.com/aero_store1/" class="btn-ig-float shadow-sm" target="_blank"><i class="fab fa-instagram" style="margin-top: 9px;"></i></a>
 	<a href="https://api.whatsapp.com/send?phone=6282234963134" class="btn-call-float shadow-sm" target="_blank"><i class="fab fa-whatsapp" style="margin-top: 9px;"></i></a>
 	<a href="#" id="btn-gotop" onclick="topFunction()"><i class="fas fa-angle-up mt-1"></i></a>
+	<?php include(APPPATH.'views/ajax/home_ajax.php'); ?>
 	<script>
 mybutton = document.getElementById("btn-gotop");
 window.onscroll = function() {
