@@ -30,8 +30,6 @@
       </div>
     </div>
   </div>
-	
-	
 	<script>var demoImage = '';</script>
 	<script src="<?php echo base_url() ?>/template/home/assets\js\promobox.js"></script>
 	<br>

@@ -194,5 +194,40 @@ class Admin extends CI_Controller {
 			echo json_encode('sukses');
 		}
 	}
+	// ======================== Transaksi ======================
+	public function transaksi(){
+		$pesan = $this->admin_model->data_pesan();
+		$data = array('title' => 'Data Transaksi',
+						'pesan' => $pesan,
+                        'isi' => 'admin/data_transaksi' );
+		// print_r($pesan);
+        $this->load->view('admin/layout/wrapper',$data, FALSE);
+	}
+	public function get_pesan(){
+		$id = $this->input->post('id');
+		$data_pesan = $this->admin_model->get_pesan($id);
+		echo json_encode($data_pesan);
+	}
+	public function konfirmasi(){
+		$id = $this->input->post('id');
+		$tgl_bayar = $this->input->post('tgl_bayar');
+		$total_bayar = $this->input->post('total_bayar');
 
+		$data = array('id_transaksi' => $id,
+						'tgl_bayar' => $tgl_bayar,
+						'total_bayar' => $total_bayar,
+						'status'	=>1
+			 );
+		$this->admin_model->konfirmasi($data);
+		echo json_encode('sukses');
+	}
+	public function batal($id_transaksi){
+
+		$data = array('id_transaksi' => $id_transaksi,
+						'status'	=>2
+			 );
+		$this->admin_model->konfirmasi($data);
+		$this->session->set_flashdata('sukses', 'Transaksi Dibatalkan');
+		redirect(base_url('admin/transaksi'), 'refresh');
+	}
 }

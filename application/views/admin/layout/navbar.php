@@ -28,7 +28,7 @@
                     </li>
                     
                     <li>
-                        <a href="table.html"><i class="fa fa-table"></i> Transaksi</a>
+                        <a href="<?php echo base_url('admin/transaksi') ?>"><i class="fa fa-table"></i> Transaksi</a>
                     </li>
                     <li>
                         <a href="form.html"><i class="fa fa-edit"></i> Logout </a>

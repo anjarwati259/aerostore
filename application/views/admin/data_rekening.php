@@ -4,7 +4,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="alert alert-warning">
-                    <strong>Warning!</strong> Best check yo self, you're not looking too good.
+                    <strong>Warning!</strong> Jika Ingin Menambah Data Rekening Silahkan Hubungi ADMIN WEB
                 </div>
           </div>
             <div class="panel-body">

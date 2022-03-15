@@ -4,7 +4,7 @@
 
 	"default": {
 
-		//"host": "203.175.9.48",
+		"host": "203.175.9.48",
 		"username": "akunftp@aerostoreofficial.com",  // or null for anonymous login
 		"password": "Ro4wfmJ%${&i",
 		"path": "/",

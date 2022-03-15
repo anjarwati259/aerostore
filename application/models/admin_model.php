@@ -80,4 +80,28 @@ class Admin_model extends CI_Model
 		$this->db->where('id_rekening', $data['id_rekening']);
 		$this->db->update('tb_rekening',$data);
 	}
+
+	// transaksi
+	public function data_pesan(){
+		$this->db->select('tb_pesan.*,tb_paket.nama_paket, tb_game.nama_game, tb_rekening.nama');
+		$this->db->from('tb_pesan');
+		$this->db->join('tb_paket','tb_paket.id_paket = tb_pesan.id_paket', 'left');
+		$this->db->join('tb_game','tb_game.id_game = tb_pesan.id_game', 'left');
+		$this->db->join('tb_rekening','tb_rekening.id_rekening = tb_pesan.rekening', 'left');
+		$this->db->order_by('tb_pesan.status','asc');
+		$query = $this->db->get();
+		return $query->result();
+	}
+	public function get_pesan($id){
+		$this->db->select('tb_pesan.*,tb_rekening.nama');
+		$this->db->from('tb_pesan');
+		$this->db->join('tb_rekening','tb_rekening.id_rekening = tb_pesan.rekening', 'left');
+		$this->db->where('id_transaksi',$id);
+		$query = $this->db->get();
+		return $query->row();
+	}
+	public function konfirmasi($data){
+		$this->db->where('id_transaksi', $data['id_transaksi']);
+		$this->db->update('tb_pesan',$data);
+	}
 }
