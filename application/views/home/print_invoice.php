@@ -1,4 +1,12 @@
-<div class="container">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Print Invoice</title>
+	<link rel="stylesheet" href="<?php echo base_url() ?>/template/home/assets\css\style.css?v=1641098465">
+	<link rel="stylesheet" href="<?php echo base_url() ?>/template/home/assets\vendor\bootstrap\css\bootstrap.min.css">
+</head>
+<body>
+	<div class="container" style="padding-top: 100px;">
 		<div class="row">        	                        
 			<div class="col-12 mb-3">
 				<div class="card">
@@ -15,10 +23,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-10" style="text-align: right;">
-								<a href="<?php echo base_url('home/print/'.$data_pesan->id_transaksi) ?>" class="btn btn-sm btn-success" target="_blank">Download Invoice</a>
-							</div>
-							<div class="col-2" style="text-align: left;">
+							<div class="col-12" style="text-align: right;">
 								<label style="text-align: right;">Status: <span class="badge badge-warning right" style="text-align: right;">Belum Bayar</span></label>
 							</div>
 						</div>
@@ -40,11 +45,19 @@
 							      <td colspan="3"><span id="userid"><?php echo $data_pesan->userid ?></span>(<span id="zoneid"><?php echo $data_pesan->zoneid ?></span>)</td>
 							    </tr>
 							    <tr>
+							    	<?php if($data_pesan->metode_bayar==1){ ?>
 							      <td colspan="3" rowspan="3" style="max-width: 20px;">
 							      	<h5>Silahkan Lakukan Pembayaran Sesuai Dengan Instruksi</h5>
 							      	<h5>Nama Bank :<span id="nama_bank"><?php echo $data_pesan->bank ?></span></h5>
 							      	<p>Virtual Account : <span id="no_rekening"><?php echo $data_pesan->virtual_account ?></span>, untuk instruksi pembayaran bisa download link berikut: <a href="<?php echo $data_pesan->link_pdf ?>">Download Instruksi</a></p>
 							      </td>
+							  <?php }else{ ?>
+							  		<td colspan="3" rowspan="3" style="max-width: 20px;">
+							      	<h5>Silahkan Transfer Ke Rekening Beikut</h5>
+							      	<h5>Transfer Bank <span id="nama_bank"><?php echo $data_pesan->nama ?></span></h5>
+							      	<p>No Rekening : <span id="no_rekening"><?php echo $data_pesan->no_rekening ?></span> Atas Nama : <span id="atas_nama"><?php echo $data_pesan->atas_nama ?></span> Mohon Transfer sesuai dengan nominal total yang harus dibayar (yang berwarna hijau), Termasuk kode unik di akhir. Agar pesanan anda bisa di proses otomatis oleh sistem kami</p>
+							      </td>
+							  <?php } ?>
 							      <td>Harga</td>
 							      <td><span id="harga"><?php echo $data_pesan->harga ?></span></td>
 							    </tr>
@@ -64,3 +77,9 @@
 			</div>
 		</div>
 	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+  window.print();
+</script>

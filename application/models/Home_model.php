@@ -32,12 +32,16 @@ class Home_model extends CI_Model
    		return $insert_id;
 	}
 	public function get_pesan($id){
-		$this->db->select('tb_pesan.*, tb_paket.nama_paket, tb_paket.harga, tb_rekening.atas_nama, tb_rekening.no_rekening');
+		$this->db->select('tb_pesan.*, tb_paket.nama_paket, tb_paket.harga, tb_rekening.atas_nama, tb_rekening.no_rekening, tb_rekening.nama');
 		$this->db->from('tb_pesan');
 		$this->db->join('tb_paket','tb_paket.id_paket = tb_pesan.id_paket', 'left');
 		$this->db->join('tb_rekening','tb_rekening.id_rekening = tb_pesan.rekening', 'left');
 		$this->db->where('tb_pesan.id_transaksi',$id);
 		$query = $this->db->get();
 		return $query->row();
+	}
+	public function edit($data){
+		$this->db->where('id_transaksi', $data['id_transaksi']);
+		$this->db->update('tb_pesan',$data);
 	}
 }

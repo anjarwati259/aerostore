@@ -6,7 +6,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">AeroStrore</a>
+                <a class="navbar-brand" href="<?php echo base_url('admin') ?>">AeroStrore</a>
             </div>
         </nav>
         <!--/. NAV TOP  -->
@@ -15,7 +15,7 @@
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a class="active-menu" href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                        <a class="active-menu" href="<?php echo base_url('admin') ?>"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="<?php echo base_url('admin/game') ?>"><i class="fa fa-desktop"></i> Daftar Game</a>

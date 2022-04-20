@@ -1,7 +1,4 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-<script type="text/javascript"
-    src="https://app.sandbox.midtrans.com/snap/snap.js"
-    data-client-key="SB-Mid-client-T2XjsHJrcEQ4tj-R"></script>
 <div class="row mt-2" style="margin:0px">
 		<div id="slider-img" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -113,8 +110,10 @@
 									<input type="radio" id="tf-mandiri" name="tf" value="3"><label id="mandiri" for="tf-mandiri"><img style="margin-right: 3px !important;" height="50px" src="<?php echo base_url()?>template\home\assets\images\bayar\mandiri.png"></label>
 								</div>
 								<div class="mt-4">
-									<h6 style="margin-left: 20px;">Virtual Account</h6>
-									<input type="radio" id="VA" name="tf" value="va"><label for="VA"><img style="margin-right: 3px !important;" height="50px" src="<?php echo base_url()?>template\home\assets\images\bayar\va.png"></label>
+									<h6 style="margin-left: 20px;">E - Wallet</h6>
+									<input type="radio" id="tf-dana" name="tf" value="6"><label for="tf-dana"><img style="margin-right: 3px !important;" height="50px" src="<?php echo base_url()?>template\home\assets\images\bayar\dana.png"></label>
+									<input type="radio" id="tf-gopay" name="tf" value="5"><label for="tf-gopay"><img style="margin-right: 3px !important;" height="50px" src="<?php echo base_url()?>template\home\assets\images\bayar\gopay.png"></label>
+									<input type="radio" id="tf-ovo" name="tf" value="4"><label id="ovo" for="tf-ovo"><img style="margin-right: 3px !important;" height="50px" src="<?php echo base_url()?>template\home\assets\images\bayar\ovo.png"></label>
 								</div>
 						</div>
 					</div>
@@ -135,16 +134,11 @@
 										<input type="text" id="nama" class="form-control" name="nama" placeholder="Nama User" required="">
 									</div>
 								</div>
-								<input type="hidden" name="id_transaksi" id="id_transaksi" value="<?php echo $id_pesan ?>">
 						</div>
 					</div>
                     
              
                     <div class="col-12 mb-3">
-                    	<form id="payment-form" method="post" action="<?=site_url()?>/snap/finish">
-							<input type="hidden" name="result_type" id="result-type" value=""></div>
-							<input type="hidden" name="result_data" id="result-data" value=""></div>
-						</form>
 						 <button type="submit" id="btn-submit"><b>BELI SEKARANG</b></button> 
                     </div>
                     <div id="ordermodal" class="modal fade" tabindex="-1" role="dialog">

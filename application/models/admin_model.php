@@ -88,7 +88,7 @@ class Admin_model extends CI_Model
 		$this->db->join('tb_paket','tb_paket.id_paket = tb_pesan.id_paket', 'left');
 		$this->db->join('tb_game','tb_game.id_game = tb_pesan.id_game', 'left');
 		$this->db->join('tb_rekening','tb_rekening.id_rekening = tb_pesan.rekening', 'left');
-		$this->db->order_by('tb_pesan.status','asc');
+		$this->db->order_by('tb_pesan.status','desc');
 		$query = $this->db->get();
 		return $query->result();
 	}

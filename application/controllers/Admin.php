@@ -216,7 +216,7 @@ class Admin extends CI_Controller {
 		$data = array('id_transaksi' => $id,
 						'tgl_bayar' => $tgl_bayar,
 						'total_bayar' => $total_bayar,
-						'status'	=>1
+						'status'	=>200
 			 );
 		$this->admin_model->konfirmasi($data);
 		echo json_encode('sukses');
@@ -224,7 +224,7 @@ class Admin extends CI_Controller {
 	public function batal($id_transaksi){
 
 		$data = array('id_transaksi' => $id_transaksi,
-						'status'	=>2
+						'status'	=>199
 			 );
 		$this->admin_model->konfirmasi($data);
 		$this->session->set_flashdata('sukses', 'Transaksi Dibatalkan');

@@ -276,4 +276,25 @@
 	        }
 	    });
 	});
+
+	$(document).on( "click", '#btn_follow',function(e) {
+		var id = $(this).data('id');
+		var data = {id:id};
+		console.log(data);
+		// $.ajax({
+	 //        type: 'POST',
+	 //        url: "<?php echo base_url('admin/get_pesan'); ?>",
+	 //        data:data,
+	 //        dataType : 'json',
+	 //        success: function(data) {
+	 //        	//console.log(data);
+	 //        	$('#id').val(data.id_transaksi);
+	 //        	$("#id_transaksi").text(data.id_transaksi);
+	 //        	$("#total_bayar").val(data.total_bayar);
+		// 		$("#tgl_transaksi").val(data.tgl_transaksi);
+		// 		$('#metode_bayar').val(data.nama);
+	 //        }
+	 //    });
+	});
+
 </script>

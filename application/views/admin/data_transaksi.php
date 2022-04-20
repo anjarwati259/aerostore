@@ -29,24 +29,31 @@
                                 <td><?php echo $value->nama_paket ?><br>(<?php echo $value->nama_game ?>)</td>
                                 <td><?php echo $value->userid ?> <br>(<?php echo $value->zoneid ?>)</td>
                                 <td>Rp. <?php echo number_format($value->total_bayar,'0',',','.') ?><br>(<?php echo $value->nama ?>)</td>
-                                <td><?php if($value->status==0){ ?>
-                                    <span style="color: orange; font-weight: bold;">Belum Bayar</span><br>
-                                    <button class="btn btn-sm btn-success">Follow Up</button>
-                                <?php }else if($value->status==1){ ?>
+                                <td><?php if($value->status==201){ ?>
+                                    <span style="color: orange; font-weight: bold;">Pending</span><br>
+                                    <button class="btn btn-sm btn-success" id="btn_follow" data-id="<?php echo $value->id_transaksi; ?>" data-kode="1">Follow Up</button>
+                                <?php }else if($value->status==200){ ?>
                                     <span style="color: green; font-weight: bold;">Sudah Bayar</span><br>
-                                    <button class="btn btn-sm btn-success">Follow Up</button>
                                 <?php }else{ ?>
                                     <span style="color: red; font-weight: bold;">Dibatalkan</span><br>
-                                    <button class="btn btn-sm btn-success">Follow Up</button>
                                 <?php } ?>
                                 </td>
                                 <td>
+                                    <?php if($value->status==201){ ?>
                                     <button type="button" class="btn btn-success btn-sm btn-konfirm" 
                                     data-id="<?php echo $value->id_transaksi; ?>"
                                     data-toggle="modal" data-target="#modal-konfirm">
                                     <i class="fa fa-check-square-o" aria-hidden="true"></i></button>
                                     <!-- hapus -->
                                     <a href="<?php echo base_url('admin/batal/'.$value->id_transaksi) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah anda yakin ingin membatalkan transaksi ini?')"><i class="fa fa-ban" aria-hidden="true"></i></a>
+                                <?php }else{ ?>
+                                    <button type="button" class="btn btn-success btn-sm btn-konfirm" disabled>
+                                    <i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+                                    <!-- hapus -->
+                                    <button type="button" class="btn btn-danger btn-sm btn-konfirm" disabled>
+                                    <i class="fa fa-ban" aria-hidden="true"></i></button>
+                                    
+                                <?php } ?>
                                 </td>
                             </tr>
                         <?php } ?>
