@@ -1,26 +1,30 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 <script type="text/javascript"
-    src="https://app.sandbox.midtrans.com/snap/snap.js"
-    data-client-key="SB-Mid-client-T2XjsHJrcEQ4tj-R"></script>
+    src="https://app.midtrans.com/snap/snap.js"
+    data-client-key="Mid-client-Euo45JPRSN5hnw5a"></script>
 <div class="row mt-2" style="margin:0px">
-		<div id="slider-img" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#slider-img" data-slide-to="0" class="active"></li>
-		</ol>
-		<div class="carousel-inner" style="border-radius: 5px;">
-			<div class="carousel-item active">
-				<img src="<?php echo base_url() ?>/template/home/aero2.png" class="d-block w-100"></div>
+	<div class="col-md-12">	
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="<?php echo base_url() ?>template/image/banner1.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="<?php echo base_url() ?>template/image/banner2.jpg" alt="Second slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
 		</div>
-		<a class="carousel-control-prev" href="#slider-img" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#slider-img" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-		</a>
 	</div>
-	</div>
+	
+</div>
 	<div class="col-12 mb-3 mt-4">
 		<center>
 		<span class="p-2" style="font-weight: 700; font-size: 20px; border-radius: 4px; color: #001439"></span>
